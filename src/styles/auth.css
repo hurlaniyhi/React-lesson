@@ -1,0 +1,41 @@
+.main {
+    height: 400px;
+    width: 50%;
+    border: 1px solid #1D9CEA;
+    margin: 40px auto;
+    overflow: hidden;
+    padding: 30px 0px;
+}
+
+.title {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.user {
+    padding: 20px;
+    width: 70%; 
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 100px;
+    border-style: none;
+    border: 1px solid black;
+}
+
+.but {
+    padding: 17px 0;
+    background-color: #1D9CEA;
+    border-radius: 100px;
+    border-style: none;
+    outline: none;
+    width: 40%;
+    margin: 70px 30% 20px 30%;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+}

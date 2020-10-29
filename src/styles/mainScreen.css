@@ -1,0 +1,44 @@
+.container {
+    height: 400px;
+    width: 50%;
+    border: 1px solid #1D9CEA;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.counter {
+    /* margin: 30px auto; */
+
+}
+
+.number {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: block;
+}
+
+.clicks {
+    padding: 17px 10%;
+    background-color: #1D9CEA;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+}
+.clicks:hover, .clicks:focus {
+    background-color: #666;
+}
+
+.one {
+    margin-right: 5%;
+    margin-left: 17%;
+}
+
+.two {
+    margin-left: 5%;
+}
+
+
