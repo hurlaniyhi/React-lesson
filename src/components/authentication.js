@@ -29,7 +29,7 @@ const Authentication = () => {
     }
     return (
         <div className="main" style={{borderColor: info.color}}>
-            <p className="title">LogIn</p>
+            <p className="title">login</p>
             <input type="text" placeholder="Enter username" onChange={(e)=>handleChange(e)} name="username" 
               className="user"/>
 
