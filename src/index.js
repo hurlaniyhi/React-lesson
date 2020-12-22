@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import App from './components/mainScreen'
 import Authentication from './components/authentication'
+import Payment from './components/Payment'
+import ImageCrop from './components/ImageCrop'
 
 ReactDOM.render(
   <React.StrictMode>
