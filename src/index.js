@@ -6,10 +6,14 @@ import App from './components/mainScreen'
 import Authentication from './components/authentication'
 import Payment from './components/Payment'
 import ImageCrop from './components/ImageCrop'
+import Navigator from './routes/routes'
+import {StateProvider} from "./stateManager/manager"
 
 ReactDOM.render(
   <React.StrictMode>
-      <Authentication />
+    <StateProvider>
+      <Navigator />
+    </StateProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
